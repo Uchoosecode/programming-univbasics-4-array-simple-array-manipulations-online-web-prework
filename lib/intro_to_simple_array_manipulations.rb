@@ -86,7 +86,7 @@ def using_delete(array, element)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
     no_offense_steven = instructors.delete("Steven")
     
-    p array.delete
+    p array.delete(element)
     p instructors
     return no_offense_steven
 end
