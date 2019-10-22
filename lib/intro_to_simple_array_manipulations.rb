@@ -18,7 +18,7 @@ def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = continents.pop
   
-  p array.pop
+  array.pop
   p deleted_string
   return deleted_string 
 end
@@ -27,7 +27,7 @@ def pop_with_args(array)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   small_dogs = dog_breeds.pop(2)
   
-  p array.pop(2)
+  array.pop(2)
   p dog_breeds
   return small_dogs
 end
@@ -91,7 +91,7 @@ def using_delete(array, element)
     return no_offense_steven
 end
 
-def using_delete_at
+def using_delete_at(array, element)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
     deleted_robot = famous_robots.delete_at[2]
     
