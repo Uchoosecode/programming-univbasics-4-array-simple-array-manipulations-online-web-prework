@@ -36,7 +36,7 @@ def using_shift(array)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   im_so_over_this_city = my_favorite_cities.shift
   
-  p array.shift
+  array.shift
   p my_favorite_cities
   return im_so_over_this_city
 end
@@ -45,7 +45,7 @@ def shift_with_args(array)
   ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
     brands_removed = ice_cream_brands.shift(2)
     
-    p array.shift(2)
+    array.shift(2)
     p ice_cream_brands
     return brands_removed
 end
@@ -55,7 +55,7 @@ def using_concat(array, element)
     more_favs = ["sports cars", "flatiron school"]
     all_my_favs = my_favorite_things.concat(more_favs)
     
-    p array.concat(element)
+    array.concat(element)
     p my_favorite_things
     return all_my_favs
 end
